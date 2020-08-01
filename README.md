@@ -7,9 +7,9 @@ A modular Telegram Python bot running on python3 with a sqlalchemy database.
 
 Originally a Marie fork, Saitama evolved further and was built to be more robust and more dedicated to Anime Chats. 
 
-Can be found on telegram as [Lucy](https://t.me/LucyRobot).
+Can be found on telegram as [Lucy](https://t.me/Lucy_Robot).
 
-The Support group can be reached out to at [Lucy Support](https://t.me/LucySupportChat), where you can ask for help about @LucyRobot, discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at [Lucy Support](https://t.me/LucySupportChat), where you can ask for help about @Lucy_Robot, discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
 
 ## How to setup/deploy.
