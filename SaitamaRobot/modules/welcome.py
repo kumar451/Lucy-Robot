@@ -4,19 +4,19 @@ import re
 import time
 from functools import partial
 
-import SaitamaRobot.modules.sql.welcome_sql as sql
-from SaitamaRobot import (DEV_USERS, LOGGER, OWNER_ID, SUDO_USERS,
+import Lucy.modules.sql.welcome_sql as sql
+from Lucy import (DEV_USERS, LOGGER, OWNER_ID, SUDO_USERS,
                           SUPPORT_USERS, TIGER_USERS, WHITELIST_USERS, sw,
                           dispatcher)
-from SaitamaRobot.modules.helper_funcs.chat_status import (
+from Lucy.modules.helper_funcs.chat_status import (
     is_user_ban_protected, user_admin)
-from SaitamaRobot.modules.helper_funcs.misc import (build_keyboard,
+from Lucy.modules.helper_funcs.misc import (build_keyboard,
                                                     revert_buttons)
-from SaitamaRobot.modules.helper_funcs.msg_types import get_welcome_type
-from SaitamaRobot.modules.helper_funcs.string_handling import (
+from Lucy.modules.helper_funcs.msg_types import get_welcome_type
+from Lucy.modules.helper_funcs.string_handling import (
     escape_invalid_curly_brackets, markdown_parser)
-from SaitamaRobot.modules.log_channel import loggable
-from SaitamaRobot.modules.sql.global_bans_sql import is_user_gbanned
+from Lucy.modules.log_channel import loggable
+from Lucy.modules.sql.global_bans_sql import is_user_gbanned
 from telegram import (ChatPermissions, InlineKeyboardButton,
                       InlineKeyboardMarkup, ParseMode, Update)
 from telegram.error import BadRequest
